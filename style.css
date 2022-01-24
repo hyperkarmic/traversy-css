@@ -1,0 +1,27 @@
+body {
+  background-color: #f4f4f4;
+  color: #555555;
+  /* font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: normal; */
+  /* below is shorthand for above */
+  font: normal 16px Arial, Helvetica, sans-serif;
+  line-height: 1.6em;
+  margin: 0;
+}
+.container {
+  width: 80%;
+  /* setting width to a percentage makes it responsive */
+  /* 960 a popular width for websites */
+  /* margin auto pushes content to the center */
+  margin: auto;
+}
+
+.box-1 {
+  background-color: #333333;
+  color: #ffffff;
+  border: 5px red solid;
+  border-width: 3px;
+  border-bottom-width: 6px;
+  border-top-style: dotted;
+}
